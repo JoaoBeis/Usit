@@ -89,7 +89,7 @@ function renderLogin(createMode=false){
             <div class="divider">ou continuar com</div>
             <div class="social">
               <button class="btn ghost full" id="googleBtn">G Entrar com Google</button>
-              <button class="btn ghost full" id="appleBtn"> Entrar com Apple ID</button>
+              <button class="btn ghost full" id="appleBtn">🍎 Entrar com Apple ID</button>
             </div>
           </div>
         ` : ''}
