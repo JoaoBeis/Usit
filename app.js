@@ -135,7 +135,7 @@ function layout(content, active='explore'){
   return `
     <div class="shell">
       <aside class="sidebar">
-        <div class="brand"><div><img src="logo-usit.png" width = 100></div><div>Use it. Share it.</div></div>
+        <div class="brand"><div><img src="logo-usit.png" width = 100></div><div>Use it.<br/>Share it.</div></div>
         <nav class="nav">${navHtml}</nav>
         <div class="sidebar-footer">
           <div class="profile-chip"><div class="avatar">${u.name.slice(0,1).toUpperCase()}</div><div style="min-width:0"><strong>${u.name}</strong><div class="tiny">${roleLabel(u.role)}</div></div></div>
